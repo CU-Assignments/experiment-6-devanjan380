@@ -1,0 +1,11 @@
+# SQL Code
+CREATE TABLE Employee (
+    EmpID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Salary DECIMAL(10,2)
+);
+
+INSERT INTO Employee (EmpID, Name, Salary) VALUES
+(1, 'Akash', 50000.00),
+(2, 'Aman', 60000.00),
+(3, 'Devanjan', 55000.00);
